@@ -1,7 +1,10 @@
 Restricted registration Plugin for DokuWiki
 =======================================
 
-A dokuwiki plugin, which restricts registration to allowed email addresses only
+A dokuwiki plugin, which restricts registration to allowed email addresses only.
+Currently only ezmlm-based mailinglists are supported.
+This means users have to be listed in ezmlm-list in order to be able to register.
+In future versions, administrators also can restrict registration based on email domains.
 
 All documentation for this plugin can be found at
 https://github.com/Stean/dokuwiki-plugin-restricted_Registration
