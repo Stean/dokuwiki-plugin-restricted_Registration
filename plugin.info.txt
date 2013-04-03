@@ -1,0 +1,7 @@
+base   restrictedregistration
+author Stean
+email  stean@gmx.org
+date   2013-04-03
+name   restrictedregistration plugin
+desc   A dokuwiki plugin, which restricts registration to allowed email addresses only
+url    https://github.com/Stean/dokuwiki-plugin-restricted_Registration
