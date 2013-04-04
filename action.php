@@ -14,7 +14,7 @@ if (!defined('DOKU_TAB')) define('DOKU_TAB', "\t");
 if (!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
 
 require_once DOKU_PLUGIN.'action.php';
-require_once DOKU_PLUGIN.'ezmlm.php';
+require_once 'ezmlm.php';
 
 class action_plugin_restrictedregistration extends DokuWiki_Action_Plugin {
 
@@ -22,9 +22,7 @@ class action_plugin_restrictedregistration extends DokuWiki_Action_Plugin {
      * register the eventhandlers
      */
     public function register(Doku_Event_Handler &$controller) {
-
        $controller->register_hook('AUTH_USER_CHANGE', 'BEFORE', $this, 'handle_auth_user_change');
-   
     }
 
     /**
