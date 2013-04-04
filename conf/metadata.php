@@ -9,5 +9,5 @@
 $meta['ezmlm-binary']       = array('string');
 $meta['mailinglist-subdir'] = array('string');
 
-$conf['fallback_action']    = array('multichoice','_choices' => array('disallow','allow'));
-$conf['prevent_change']     = array('onoff');
+$meta['fallback_action']    = array('multichoice','_choices' => array('disallow','allow'));
+$meta['prevent_change']     = array('onoff');
