@@ -8,8 +8,7 @@
 // menu entry for admin plugins
 // $lang['menu'] = 'Your menu entry';
 
-// custom language strings for the plugin
-// $lang['fixme'] = 'FIXME';
+$lang['not_allowed_address'] = "The email address you entered isn't allowed. If in doubt, please contact your administrator.";
 
 
 
