@@ -8,5 +8,5 @@
 $conf['ezmlm-binary']    = 'ezmlm-list';
 $conf['mailinglist-subdir']    = '<your mailinglist path>';
 
-$conf['fallback_action']    = '0';
+$conf['fallback_action']    = 'disallow';
 $conf['prevent_change']    = 'on';

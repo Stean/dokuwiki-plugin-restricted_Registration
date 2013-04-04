@@ -47,7 +47,7 @@ class action_plugin_restrictedregistration extends DokuWiki_Action_Plugin {
          * Allow, if something goes wrong but the fallback action is set to "allow"
          * or if everything goes well and the entered address is found
          */
-        if (($addresses == FALSE && $this->getConf("fallback_action") == 1) ||
+        if (($addresses == FALSE && $this->getConf("fallback_action") == "disallow") ||
             ($addresses != FALSE && in_array($mailaddress, $addresses))) {
                 return TRUE;
             }else{
